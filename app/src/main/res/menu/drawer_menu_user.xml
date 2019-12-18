@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/NavigationDrawer_menu_Home" />
+        <item
+            android:id="@+id/nav_goods"
+            android:icon="@drawable/ic_goods"
+            android:title="@string/NavigationDrawer_menu_goods" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_cart"
+            android:title="@string/NavigationDrawer_menu_cart" />
+
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_heart"
+            android:title="@string/NavigationDrawer_menu_facvorite" />
+
+        <item
+            android:id="@+id/nav_sales"
+            android:icon="@drawable/ic_sale"
+            android:title="@string/NavigationDrawer_menu_Sales" />
+
+
+        <item
+            android:title="@string/NavigationDrawer_menu_account"
+            >
+            <menu>
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_user"
+                    android:title="@string/NavigationDrawer_menu_Profile" />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_logout"
+                    android:title="@string/NavigationDrawer_menu_logout" />
+            </menu>
+        </item>
+
+
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+
+        <item android:title="@string/NavigationDrawer_menu_communication">
+            <menu>
+                <item
+                    android:id="@+id/nav_contactus"
+                    android:icon="@drawable/ic_contacts"
+                    android:title="@string/NavigationDrawer_menu_contactus" />
+
+            </menu>
+        </item>
+
+        <item
+            android:title="@string/NavigationDrawer_menu_language"
+            >
+            <menu>
+
+                <item
+                    android:id="@+id/nav_english"
+                    android:icon="@drawable/ic_english_language"
+                    android:title="@string/NavigationDrawer_menu_english" />
+
+                <item
+                    android:id="@+id/nav_arabic"
+                    android:icon="@drawable/ic_arabic2"
+                    android:title="@string/NavigationDrawer_menu_arabic" />
+            </menu>
+        </item>
+
+
+    </group>
+
+
+
+
+
+
+</menu>

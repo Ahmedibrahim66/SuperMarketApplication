@@ -1,0 +1,175 @@
+<resources>
+
+    <string name="app_name">Salati</string>
+    <string name="app_namear">سوبر ماركت سلتي</string>
+    <string name="MainActivity_GetStarted">Get Started</string>
+    <string name="MainActivity_Language">Language</string>
+    <string name="MainActivity_Connected">Server Connected </string>
+    <string name="MainActivity_NotConnected">Connection Error!! Check Your Connection</string>
+    <string name="MainActivity_ok">OK</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+
+
+    <!--Log In Activity-->
+    <string name="LogInActivity_LogIn">Log In</string>
+    <string name="LogInActivity_Email">Email</string>
+    <string name="LogInActivity_Password">Password</string>
+    <string name="LogInActivity_enter">Enter</string>
+    <string name="LogInActivity_donthaveaccount">Dont have an account ? Press to Sign up !!</string>
+    <string name="LogInActivity_Matches">Logged In Successfully</string>
+    <string name="LogInActivity_notmatch">Wrong password</string>
+    <string name="LogInActivity_Emailwrong">Wrong Email</string>
+    <string name="LogInActivity_Remeber">Remember me !</string>
+
+
+    <!--Sign Up activity 1-->
+    <string name="SignUpActivity1_SignUp">SignUp</string>
+    <string name="SignUpActivity1_haveAccount">Do you have an account ? Press to LogIn !!</string>
+    <string name="SignUpActivity1_Continue">Continue</string>
+    <string name="SignUpActivity1_EmailnotVAlid">Email is not Valid</string>
+    <string name="SignUpActivity1_EmailisUsed">Email Already Have an Account</string>
+
+
+    <!--Sign Up activity 2-->
+    <string name="SignUpActivity2_FirstName">First Name</string>
+    <string name="SignUpActivity2_FirstNamehint">Ex.Saja</string>
+    <string name="SignUpActivity2_LastName">Last Name</string>
+    <string name="SignUpActivity2_LastNamehint">Ex.Saife</string>
+    <string name="SignUpActivity2_Phone">Phone Number +9705</string>
+    <string name="SignUpActivity2_PhoneNumberHint">92705702</string>
+    <string name="SignUpActivity2_City">City</string>
+    <string name="SignUpActivity2_Gender">Gender</string>
+    <string name="SignUpActivity2_ConfirmPassword">Confirm Password</string>
+    <string name="SignUpActivity2_createAccount">Create Account</string>
+
+
+    <string name="SignUpActivity2_phonenotcorrect">Phone is not Valid</string>
+    <string name="SignUpActivity2_Namenotcorrect">First and Last Name must atleast 3 characters</string>
+    <string name="SignUpActivity2_passwordnotmatch">Password does not match</string>
+    <string name="SignUpActivity2_passwordLength">Password length must be alteast 6</string>
+    <string name="SignUpActivity2_passwordnotcorrect">Password must contain 1 number , 1 character ,1 special character atleast</string>
+    <string name="SignUpActivity2_AccountCreated">Account Created</string>
+
+
+    <!--Sign Up activity 2 Spinner City-->
+    <string name="Spinner_City_Jerusalem">Jerusalem</string>
+    <string name="Spinner_City_Jenin">Jenin</string>
+    <string name="Spinner_City_Tulkarm">Tulkarm</string>
+    <string name="Spinner_City_Nablus">Nablus</string>
+    <string name="Spinner_City_Qalqilya">Qalqilya</string>
+    <string name="Spinner_City_Salfit">Salfit</string>
+    <string name="Spinner_City_Jericho">Jericho</string>
+    <string name="Spinner_City_Ramallah">Ramallah and Al-Bireh</string>
+    <string name="Spinner_City_Bethlehem"> Bethlehem</string>
+    <string name="Spinner_City_Hebron">Hebron</string>
+
+    <!--Sign Up activity 2 Spinner gender-->
+    <string name="Spinner_gender_male">Male</string>
+    <string name="Spinner_gender_female">Female</string>
+
+
+    <!--Navigation Drawer-->
+    <string name="NavigationDrawer_menu_Home">Home</string>
+    <string name="NavigationDrawer_menu_goods">Goods Menu</string>
+    <string name="NavigationDrawer_menu_cart">Cart</string>
+    <string name="NavigationDrawer_menu_facvorite">Favorite</string>
+    <string name="NavigationDrawer_menu_Sales">Sales</string>
+    <string name="NavigationDrawer_menu_Profile">Profile</string>
+    <string name="NavigationDrawer_menu_contactus">Contact Us</string>
+    <string name="NavigationDrawer_menu_logout">LogOut</string>
+    <string name="NavigationDrawer_menu_communication">Communicate</string>
+    <string name="NavigationDrawer_menu_account">Account</string>
+
+    <string name="NavigationDrawer_menu_language">Langauge</string>
+    <string name="NavigationDrawer_menu_english">English</string>
+    <string name="NavigationDrawer_menu_arabic">Arabic</string>
+
+
+    <!--Goods Fragment-->
+    <string name="GoodsFragmnet_searchbytype">Search By Type</string>
+    <string name="GoodsFragmnet_searchbyPrice">Search By Price</string>
+    <string name="GoodsFragmnet_searchbyheight">Search By Height</string>
+    <string name="GoodsFragmnet_Vegetables">Vegetables</string>
+    <string name="GoodsFragmnet_Fruits">Fruits</string>
+    <string name="GoodsFragmnet_Dairies">Dairies</string>
+    <string name="GoodsFragmnet_Others">Others</string>
+    <string name="GoodsFragmnet_miniprice">Enter Maximum Price</string>
+    <string name="GoodsFragmnet_confirm">Confirm</string>
+    <string name="GoodsFragmnet_MAX">Max</string>
+    <string name="GoodsFragmnet_MIN">Min</string>
+    <string name="GoodsFragmnet_RemoveFilter">Remove Filter </string>
+    <string name="GoodsFragmnet_Filteredby">Filtered By </string>
+    <string name="GoodsFragmnet_enternumber">Make Sure you enter a number</string>
+    <string name="GoodsFragmnet_adddedtoFav">Added to Favorite</string>
+    <string name="GoodsFragmnet_RemovedFromFav">Removed From Favorite</string>
+
+
+    <!--Goods Full View-->
+    <string name="GoodsFullView_Type">Type</string>
+    <string name="GoodsFullView_Price">Price</string>
+    <string name="GoodsFullView_Rating">Rating</string>
+    <string name="GoodsFullView_Width">Width</string>
+    <string name="GoodsFullView_Height">Height</string>
+    <string name="GoodsFullView_Descrition">Description</string>
+    <string name="GoodsFullView_addtocart">Add to Cart</string>
+    <string name="GoodsFullView_addtofav">Add to favorite</string>
+    <string name="GoodsFullView_specs">Specifications</string>
+    <string name="GoodsFullView_removefromfav">Remove From Favorite</string>
+    <string name="GoodsFullView_Enter_Amount">Enter Amount</string>
+
+
+    <!--Account Change-->
+    <string name="ProfileFragment_Account">Account</string>
+    <string name="ProfileFragment_EnterPassword">Enter Your Password</string>
+    <string name="ProfileFragment_UpdateAccount">Update Account</string>
+    <string name="ProfileFragment_UpdatedAccount">Account Updated</string>
+    <string name="ProfileFragment_cancel">Cancel</string>
+
+
+    <!--Contact Us-->
+    <string name="Contactus_Dev">Developers</string>
+    <string name="Contactus_Ahmed">Ahmed Ibrahim</string>
+    <string name="Contactus_Saja">Saja Saife</string>
+    <string name="Contactus_phone">Phone</string>
+    <string name="Contactus_maps">Location</string>
+    <string name="Contactus_email">Email</string>
+
+
+    <!--Admin Navigation Drawer-->
+    <string name="NavigationDrawerAdmin_Customers">Customers</string>
+    <string name="NavigationDrawerAdmin_AddAdmin">Add Admin</string>
+    <string name="NavigationDrawerAdmin_DeleteCustomer">Delete Customer</string>
+
+
+
+    <!--Customers Fragmnet-->
+    <string name="Customers_wasdeleted">User was Deleted</string>
+    <string name="Customers_undo">UNDO</string>
+
+    <!--Customers RecycleView-->
+    <string name="CustomersRV_isAdmin">Admin was Added</string>
+    <string name="CustomersRV_isnotAdmin">Admin was Removed</string>
+
+
+    <!--Customer Cart Full View-->
+    <string name="CustomerCartFullView_Name">Name</string>
+    <string name="CustomerCartFullView_Email">Email</string>
+    <string name="CustomerCartFullView_Addedtocart">Added To Cart</string>
+
+
+
+    <!--Cart Fragment-->
+    <string name="CartFragment_Quantity">Quantity</string>
+    <string name="CartFragment_TotalAmount">Total Amount to Pay</string>
+
+
+    <!--Home Fragment-->
+    <string name="HomeFragmnet_history">Our Supermarket is New We don\'t have history we make history</string>
+
+
+
+
+</resources>

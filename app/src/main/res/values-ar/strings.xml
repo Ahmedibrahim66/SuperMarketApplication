@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">سوبر ماركت سلتي</string>
+    <string name="app_namear">سوبر ماركت سلتي</string>
+
+    <string name="MainActivity_GetStarted">هيا لنبدأ</string>
+    <string name="MainActivity_Language">اللغة</string>
+    <string name="MainActivity_Connected">تم الاتصال بالخادم</string>
+    <string name="MainActivity_NotConnected">مشكلة في الاتصال !! تأكد من اتصالك بالانترنت</string>
+    <string name="MainActivity_ok">موافق</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <!--Log In Activity-->
+
+    <string name="LogInActivity_LogIn">تسجيل دخول الحساب</string>
+    <string name="LogInActivity_Email">أيميل</string>
+    <string name="LogInActivity_Password">كلمة السر</string>
+    <string name="LogInActivity_enter">دخول</string>
+    <string name="LogInActivity_donthaveaccount">ليس لديك حساب ؟ اضغط هنا لأنشاء حساب!!</string>
+    <string name="LogInActivity_Matches">تم تسجيل الدخول بنجاح</string>
+    <string name="LogInActivity_notmatch">كلمة السر خاطئة</string>
+    <string name="LogInActivity_Emailwrong">الأيميل خاطئ</string>
+    <string name="LogInActivity_Remeber">تذكرني!</string>
+
+
+
+    <!--Sign Up activity 1-->
+
+    <string name="SignUpActivity1_SignUp">انشاء حساب</string>
+    <string name="SignUpActivity1_haveAccount">لديك حساب ؟ اضغط هنا لتسجيل الدخول</string>
+    <string name="SignUpActivity1_Continue">التالي</string>
+    <string name="SignUpActivity1_EmailnotVAlid">الأيميل غير صالح</string>
+    <string name="SignUpActivity1_EmailisUsed">الايميل لديه حساب فعال</string>
+
+
+
+
+    <!--Sign Up activity 2-->
+
+    <string name="SignUpActivity2_FirstName">الاسم الأول</string>
+    <string name="SignUpActivity2_FirstNamehint">م.سجى</string>
+    <string name="SignUpActivity2_LastName">اسم العائلة</string>
+    <string name="SignUpActivity2_LastNamehint">م.صيفي</string>
+    <string name="SignUpActivity2_Phone">رقم الهاتف +9705</string>
+    <string name="SignUpActivity2_PhoneNumberHint">92705702</string>
+    <string name="SignUpActivity2_City">المدينة</string>
+    <string name="SignUpActivity2_Gender">الجنس</string>
+    <string name="SignUpActivity2_ConfirmPassword">تاكيد كلمة السر</string>
+    <string name="SignUpActivity2_createAccount">أنشاء حساب</string>
+
+    <string name="SignUpActivity2_phonenotcorrect">رقم الهاتف غير صحيح</string>
+    <string name="SignUpActivity2_Namenotcorrect">الاسم الاول والاخير يجب ان يكون 3 احرف على الاقل</string>
+    <string name="SignUpActivity2_passwordnotmatch">كلمة السر غير متطابقة</string>
+    <string name="SignUpActivity2_passwordLength">كلمة السر يجب ان تكون 6 خانات على الاقل</string>
+    <string name="SignUpActivity2_passwordnotcorrect">كلمة السر يحب ان تضمن على الاقل حرف, رقم, حرف خاص</string>
+    <string name="SignUpActivity2_AccountCreated">تم انشاء الحساب</string>
+
+    <!--Sign Up activity 2 Spinner City-->
+    <string name="Spinner_City_Jerusalem">القدس</string>
+    <string name="Spinner_City_Jenin">جنين</string>
+    <string name="Spinner_City_Tulkarm">طولكرم</string>
+    <string name="Spinner_City_Nablus">نابلس</string>
+    <string name="Spinner_City_Qalqilya">قلقيلة</string>
+    <string name="Spinner_City_Salfit">سلفيت</string>
+    <string name="Spinner_City_Jericho">اريحا</string>
+    <string name="Spinner_City_Ramallah">رام الله والبيرة</string>
+    <string name="Spinner_City_Bethlehem"> بيت لحم</string>
+    <string name="Spinner_City_Hebron">الخليل</string>
+
+    <!--Sign Up activity 2 Spinner gender-->
+    <string name="Spinner_gender_male">ذكر</string>
+    <string name="Spinner_gender_female">انثى</string>
+
+
+    <!--Navigation Drawer-->
+    <string name="NavigationDrawer_menu_Home">الرئيسية</string>
+    <string name="NavigationDrawer_menu_goods">قائمة البضائع</string>
+    <string name="NavigationDrawer_menu_cart">سلتي</string>
+    <string name="NavigationDrawer_menu_facvorite">المفضلة</string>
+    <string name="NavigationDrawer_menu_Sales">قائمة افضل البضائع</string>
+    <string name="NavigationDrawer_menu_Profile">الملف الشخصي</string>
+    <string name="NavigationDrawer_menu_contactus">تواصل معنا</string>
+    <string name="NavigationDrawer_menu_logout">تسجيل خروج</string>
+    <string name="NavigationDrawer_menu_communication">تواصل</string>
+    <string name="NavigationDrawer_menu_account">حساب</string>
+
+    <string name="NavigationDrawer_menu_language">اللغة</string>
+    <string name="NavigationDrawer_menu_english">الأنجليزية</string>
+    <string name="NavigationDrawer_menu_arabic">العربية</string>
+
+
+    <!--Goods Fragment-->
+    <string name="GoodsFragmnet_searchbytype">البحث عن طريق النوع</string>
+    <string name="GoodsFragmnet_searchbyPrice">البحث عن طريق السعر</string>
+    <string name="GoodsFragmnet_searchbyheight">البحث عن طريق الطول</string>
+    <string name="GoodsFragmnet_Vegetables"> خضراوات </string>
+    <string name="GoodsFragmnet_Fruits"> فواكه </string>
+    <string name="GoodsFragmnet_Dairies"> الألبان </string>
+    <string name="GoodsFragmnet_Others"> اخرى </string>
+    <string name="GoodsFragmnet_miniprice">ادخل السعر الاعلى</string>
+    <string name="GoodsFragmnet_confirm">تأكيد</string>
+    <string name="GoodsFragmnet_MAX">الاعلى</string>
+    <string name="GoodsFragmnet_MIN">الاقل</string>
+    <string name="GoodsFragmnet_Filteredby"> صنفت عن طريق </string>
+    <string name="GoodsFragmnet_RemoveFilter">الغاء التصنيف </string>
+    <string name="GoodsFragmnet_enternumber">تأكد من ادخال قيمة في الخانة</string>
+    <string name="GoodsFragmnet_adddedtoFav">تمت الاضافة الى المفضلة</string>
+    <string name="GoodsFragmnet_RemovedFromFav">تم الحذف من المفضلة</string>
+
+
+
+    <!--Goods Full View-->
+    <string name="GoodsFullView_Type">النوع</string>
+    <string name="GoodsFullView_Price">السعر</string>
+    <string name="GoodsFullView_Rating">التقييم</string>
+    <string name="GoodsFullView_Width">العرض</string>
+    <string name="GoodsFullView_Height">الطول</string>
+    <string name="GoodsFullView_Descrition">الوصف</string>
+    <string name="GoodsFullView_addtocart">اضف الى سلتي</string>
+    <string name="GoodsFullView_addtofav">اضف الى المفضلة</string>
+    <string name="GoodsFullView_specs">المواصفات</string>
+    <string name="GoodsFullView_removefromfav">ازل من المفضلة</string>
+    <string name="GoodsFullView_Enter_Amount">ادخل الكمية</string>
+
+
+
+
+    <!--Account Change-->
+    <string name="ProfileFragment_Account">الحساب</string>
+    <string name="ProfileFragment_EnterPassword">ادخل كلمة السر</string>
+    <string name="ProfileFragment_UpdateAccount">تحديث الحساب</string>
+    <string name="ProfileFragment_UpdatedAccount">تم تحديث الحساب</string>
+    <string name="ProfileFragment_cancel">الغاء</string>
+
+
+
+
+
+
+
+    <!--Contact Us-->
+    <string name="Contactus_Dev">المطورون</string>
+    <string name="Contactus_Ahmed">أحمد ابراهيم</string>
+    <string name="Contactus_Saja">سجى صيفي</string>
+    <string name="Contactus_phone">الهاتف</string>
+    <string name="Contactus_maps">الموقع</string>
+    <string name="Contactus_email">الايميل</string>
+
+
+
+
+    <!--Admin Navigation Drawer-->
+    <string name="NavigationDrawerAdmin_Customers">الزبائن</string>
+    <string name="NavigationDrawerAdmin_AddAdmin">أضافة مدير</string>
+    <string name="NavigationDrawerAdmin_DeleteCustomer">حذف زبون</string>
+
+
+    <!--Customers Fragmnet-->
+    <string name="Customers_wasdeleted">تم حذف المستخدم</string>
+    <string name="Customers_undo">تراجع</string>
+
+
+
+
+    <!--Customers RecycleView-->
+    <string name="CustomersRV_isAdmin">تمت اضافة مدير</string>
+    <string name="CustomersRV_isnotAdmin">تم حذف مدير</string>
+
+
+    <!--Customer Cart Full View-->
+    <string name="CustomerCartFullView_Name">الاسم</string>
+    <string name="CustomerCartFullView_Email">الايميل</string>
+    <string name="CustomerCartFullView_Addedtocart">تمت الاضافة الى السلة</string>
+
+
+
+    <!--Cart Fragment-->
+    <string name="CartFragment_Quantity">الكمية</string>
+    <string name="CartFragment_TotalAmount">المطلوب للدفع </string>
+
+
+    <!--Home Fragment-->
+    <string name="HomeFragmnet_history">السوبرماركت جديد , ليس لدينا تاريخ , نحن نصنع التاريخ</string>
+
+
+
+
+
+</resources>

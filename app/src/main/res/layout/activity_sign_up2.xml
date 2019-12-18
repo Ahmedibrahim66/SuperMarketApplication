@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp2Activity"
+    android:background="@color/BackGround"
+    android:fitsSystemWindows="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4">
+
+            <TextView
+                android:id="@+id/textview9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lecenddeca_regular"
+                android:text="@string/SignUpActivity1_SignUp"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/roundedlayout"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+
+
+            >
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                >
+
+            <LinearLayout
+                android:layout_marginTop="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:fitsSystemWindows="true"
+                android:layout_gravity="center"
+
+                >
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    >
+
+                    <TextView
+
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/SignUpActivity2_FirstName"
+                        android:fontFamily="@font/lecenddeca_regular"
+                        android:textSize="20sp"
+                        android:textColor="#000"
+                        android:textAlignment="viewStart"
+                        android:layout_marginLeft="5dp"
+                        />
+
+
+
+                    <EditText
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/Signupactivity2_firstname"
+                        android:layout_width="250dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:hint="@string/SignUpActivity2_FirstNamehint"
+                        android:fontFamily="@font/lecenddeca_regular"
+                        android:textColor="#000"
+                        android:layout_gravity="center"
+                        android:background="@drawable/rounded_edittext_green"
+                        android:textAlignment="center"
+
+
+                        />
+
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/SignUpActivity2_LastName"
+                        android:fontFamily="@font/lecenddeca_regular"
+                        android:textSize="20sp"
+                        android:textColor="#000"
+                        android:textAlignment="viewStart"
+                        android:layout_marginLeft="5dp"
+                        />
+
+
+                    <EditText
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/Signupactivity2_lastname"
+                        android:layout_width="250dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:hint="@string/SignUpActivity2_LastNamehint"
+                        android:fontFamily="@font/lecenddeca_regular"
+                        android:textColor="#000"
+                        android:layout_gravity="center"
+                        android:background="@drawable/rounded_edittext_green"
+                        android:textAlignment="center"
+
+
+
+                        />
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/SignUpActivity2_Phone"
+                        android:fontFamily="@font/lecenddeca_regular"
+                        android:textSize="20sp"
+                        android:textColor="#000"
+                        android:textAlignment="viewStart"
+                        android:layout_marginLeft="5dp"
+                        />
+
+
+                    <EditText
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/Signupactivity2_phone"
+                        android:layout_width="250dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:inputType="phone"
+                        android:hint="@string/SignUpActivity2_PhoneNumberHint"
+                        android:fontFamily="@font/lecenddeca_regular"
+                        android:textColor="#000"
+                        android:layout_gravity="center"
+                        android:background="@drawable/rounded_edittext_green"
+                        android:textAlignment="center"
+
+
+
+                        />
+
+
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/SignUpActivity2_City"
+                        android:fontFamily="@font/lecenddeca_regular"
+                        android:textSize="20sp"
+                        android:textColor="#000"
+                        android:layout_marginLeft="5dp"
+
+
+                        />
+
+
+                    <Spinner
+                        android:id="@+id/Signupactivity2_city"
+                        android:layout_width="250dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/rounded_edittext_green"
+                        android:layout_marginTop="10dp"
+                        />
+
+
+
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/SignUpActivity2_Gender"
+                        android:fontFamily="@font/lecenddeca_regular"
+                        android:textSize="20sp"
+                        android:textColor="#000"
+                        android:layout_marginLeft="5dp"
+
+
+                        />
+
+
+                    <Spinner
+                        android:id="@+id/Signupactivity2_gender"
+                        android:layout_width="250dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/rounded_edittext_green"
+                        android:layout_marginTop="10dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_marginTop="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/LogInActivity_Password"
+                            android:fontFamily="@font/lecenddeca_regular"
+                            android:textSize="20sp"
+                            android:textColor="#000"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+
+
+                            />
+
+                        <ImageView
+                            android:id="@+id/Signupactivity2_showpassword"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/ic_eye"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="5dp"
+                            />
+
+
+
+
+                    </LinearLayout>
+
+
+                    <EditText
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/Signupactivity2_password"
+                        android:layout_width="250dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:inputType="textPassword"
+                        android:hint="******"
+                        android:fontFamily="@font/lecenddeca_regular"
+                        android:textColor="#000"
+                        android:layout_gravity="center"
+                        android:background="@drawable/rounded_edittext_green"
+                        android:textAlignment="center"
+                        />
+
+
+
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/SignUpActivity2_ConfirmPassword"
+                        android:fontFamily="@font/lecenddeca_regular"
+                        android:textSize="20sp"
+                        android:textColor="#000"
+                        android:layout_marginLeft="5dp"
+
+
+                        />
+
+
+                    <EditText
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/Signupactivity2_Confirmpassword"
+                        android:layout_width="250dp"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:inputType="textPassword"
+                        android:hint="******"
+                        android:fontFamily="@font/lecenddeca_regular"
+                        android:textColor="#000"
+                        android:layout_gravity="center"
+                        android:background="@drawable/rounded_edittext_green"
+                        android:textAlignment="center"
+                        />
+
+
+
+                </LinearLayout>
+
+
+
+
+
+                <Button
+                    android:layout_marginBottom="40dp"
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/createaccount"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/roundedbutton_yellow"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:text="@string/SignUpActivity2_createAccount"
+                    android:fontFamily="@font/lecenddeca_regular"
+                    android:textAllCaps="false"
+                    android:textSize="20sp"
+
+                    />
+
+            </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

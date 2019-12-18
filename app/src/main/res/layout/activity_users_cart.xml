@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UsersCart">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appBarLayout"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        >
+
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/Colap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+            app:contentScrim="@color/BackGround"
+            app:title="Hello"
+            android:transitionName="TextWork"
+
+            >
+
+
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/ic_user"
+                android:transitionName="imagework"
+                />
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+                />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorPrimaryDark"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FFFF"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/CustomerCartFullView_Name"
+                        android:textSize="14sp"
+                        android:paddingRight="10dp"
+                        android:fontFamily="@font/lecenddeca_regular"
+                        android:textColor="#000"
+                        android:paddingLeft="30dp"
+                        android:layout_marginRight="15dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="320,000 ₪"
+                        android:textSize="14sp"
+                        android:paddingRight="10dp"
+                        android:fontFamily="@font/lecenddeca_regular"
+                        android:textColor="#000"
+                        android:layout_marginRight="15dp"
+                        />
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="15dp"
+
+                    >
+
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/lecenddeca_regular"
+                        android:textSize="14sp"
+                        android:text="@string/CustomerCartFullView_Email"
+                        android:textColor="#000"
+                        android:paddingLeft="30dp"
+                        android:paddingRight="10dp"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/lecenddeca_regular"
+                        android:textSize="18sp"
+                        android:text="-"
+                        android:textColor="#000"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/lecenddeca_regular"
+                        android:textSize="14sp"
+                        android:text="Diary"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:paddingLeft="10dp"
+
+
+                        />
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/recycleview"
+                    android:layout_weight="1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toTopOf="@id/Price"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/BackGround"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/BackGround"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Total Price Equals"
+                        android:fontFamily="@font/lecenddeca_regular"
+                        android:textSize="27sp"
+                        android:textColor="#000"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:paddingBottom="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:id="@+id/Price"
+                        android:background="#EEEEEE"
+                        android:gravity="center"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/BackGround"
+                        />
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/BackGround"
+                    />
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

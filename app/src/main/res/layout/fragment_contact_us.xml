@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactUsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Contactus_Dev"
+            android:fontFamily="@font/lecenddeca_regular"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Contactus_Ahmed"
+            android:fontFamily="@font/lecenddeca_regular"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Contactus_Saja"
+            android:fontFamily="@font/lecenddeca_regular"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"/>
+
+
+        <Button
+            android:id="@+id/contact_us_Phone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_edittext_green"
+            android:drawableLeft="@drawable/ic_phone"
+            android:fontFamily="@font/lecenddeca_regular"
+            android:padding="10dp"
+            android:text="@string/Contactus_phone"
+            android:textAllCaps="false"
+            android:textColor="@color/BackGround"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="100dp"
+
+            />
+
+        <Button
+            android:id="@+id/contact_us_Location"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_edittext_green"
+            android:drawableLeft="@drawable/ic_map"
+            android:fontFamily="@font/lecenddeca_regular"
+            android:padding="10dp"
+            android:text="@string/Contactus_maps"
+            android:textAllCaps="false"
+            android:textColor="@color/BackGround"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            />
+
+        <Button
+            android:id="@+id/contact_us_Email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_edittext_green"
+            android:drawableLeft="@drawable/ic_email"
+            android:fontFamily="@font/lecenddeca_regular"
+            android:padding="10dp"
+            android:text="@string/Contactus_email"
+            android:textAllCaps="false"
+            android:textColor="@color/BackGround"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

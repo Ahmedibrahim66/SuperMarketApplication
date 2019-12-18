@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GoodsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <com.nightonke.boommenu.BoomMenuButton
+            android:id="@+id/bmb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bmb_buttonEnum="textOutsideCircle"
+            app:bmb_buttonPlaceEnum="buttonPlace_sc_4_2"
+            app:bmb_piecePlaceEnum="piecePlace_dot_4_1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingAction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="@color/BackGround"
+            app:fabSize="auto"
+            app:rippleColor="@color/BackGround"
+            android:src="@drawable/ic_magnifier"
+
+
+            />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</FrameLayout>
